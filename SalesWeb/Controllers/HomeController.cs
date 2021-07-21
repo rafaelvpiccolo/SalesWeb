@@ -1,10 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SalesWeb.Models;
-using System;
-using System.Collections.Generic;
+using SalesWeb.Models.ViewModels;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace SalesWeb.Controllers
 {
@@ -16,15 +12,12 @@ namespace SalesWeb.Controllers
         }
 
         public IActionResult About()
-        {
-            ViewData["Message"] = "Sales WebSite developed for study in C# programming using .NET Core Framework.";
-
+        {         
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
 
             return View();
         }
