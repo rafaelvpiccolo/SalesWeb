@@ -17,7 +17,7 @@ namespace SalesWeb.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Sales WebSite developed for study in C# programming using .NET Core Framework.";
 
             return View();
         }
